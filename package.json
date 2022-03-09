@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "homepage": "http://iampankaj0.github.io/mern_stack_backend",
+  "version": "1.0.0",
+  "description": "sign Up Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
